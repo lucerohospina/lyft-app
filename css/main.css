@@ -1,0 +1,13 @@
+/* INTRO */
+
+#intro {
+  background: linear-gradient(rgb(128,0,128) 35%, rgb(238, 24, 156));
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  width: 50%;
+}

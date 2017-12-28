@@ -55,6 +55,34 @@ body {
   padding: 3% 6%;
 }
 
+/* SIGN UP VIEW */
+
+.signup-view {
+  text-align: center;
+}
+
+.go-back-btn {
+  border: 2px solid #000;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 1% 2%;
+}
+
+.glyphicon-menu-left {
+  font-weight: 900;
+}
+
+.signup-next-btn {
+  background-color: lightgray;
+  color: gray;
+  margin-top: 5%;
+}
+
+.text-verify {
+  margin-top: 3%;
+  font-size: 0.8em;
+}
 
 
 

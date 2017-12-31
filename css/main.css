@@ -84,12 +84,33 @@ body {
   font-weight: 400;
 }
 
+.verify-form {
+  margin-top: 10%;
+}
+.verify-next-btn {
+  margin-top: 15%;
+}
+
+/* REGISTER VIEW */
+.register-next-btn {
+  margin-top: 10%;
+}
+
 /* LAST VIEW */
+.bg-last {
+  background: linear-gradient(rgb(128,0,128) 35%, rgb(238, 24, 156));
+  height: 100vh;
+}
+
 .check-logo {
   left: 15%;
   position: absolute;
   top: 60%;
   width: 65%;
+}
+
+#top-last {
+  top: 30% !important;
 }
 
 

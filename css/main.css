@@ -56,11 +56,6 @@ body {
 }
 
 /* SIGN UP VIEW */
-
-.signup-view {
-  text-align: center;
-}
-
 .go-back-btn {
   border: 2px solid #000;
   border-radius: 25px;
@@ -79,11 +74,22 @@ body {
   margin-top: 5%;
 }
 
-.text-verify {
+.text-small {
   margin-top: 3%;
   font-size: 0.8em;
 }
 
+/* VERIFY VIEW */
+.verify-title {
+  font-weight: 400;
+}
 
+/* LAST VIEW */
+.check-logo {
+  left: 15%;
+  position: absolute;
+  top: 60%;
+  width: 65%;
+}
 
 

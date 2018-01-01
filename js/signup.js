@@ -3,8 +3,7 @@ $(document).ready(function() {
   $('#demo').intlTelInput();
 
   /* Declarando variables */
-  $nextBtn = $('.signup-next-btn');
-
+  var $nextBtn = $('.signup-next-btn');
 
   $('#demo').on('input', function() {
     console.log($(this).val());
@@ -14,6 +13,7 @@ $(document).ready(function() {
     } 
   });
 
+  /* Agregando evento para redireccionar al Botn NEXT */
   $nextBtn.on('click', function() {
     alert('Tu código de verificación es:');
     window.location.href = 'verify.html';

@@ -70,8 +70,9 @@ body {
 
 .signup-next-btn {
   background-color: lightgray;
-  color: gray;
+  /* color: gray; */
   margin-top: 5%;
+  padding: 5% 40%;
 }
 
 .text-small {
@@ -112,5 +113,4 @@ body {
 #top-last {
   top: 30% !important;
 }
-
 

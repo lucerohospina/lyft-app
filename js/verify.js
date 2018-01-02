@@ -1,6 +1,6 @@
 $(document).ready(function() {
   /* Declaramos variables*/
-  var $verifyCode = $('input');
+  var $verifyCode = $('#verify-input');
   var $nextVerifyBtn = $('.verify-next-btn');
 
   /* Añadimos eventos */
@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
   });
   
-  /* Agregando evento para redireccionar al Botn NEXT */
+  /* Agregando evento para redireccionar al Boton NEXT */
   $nextVerifyBtn.on('click', function() {
     window.location.href = 'register.html';
   });

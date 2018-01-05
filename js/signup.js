@@ -17,7 +17,10 @@ $(document).ready(function() {
   /* Agregando evento para redireccionar al Boton NEXT */
   $nextBtn.on('click', function() {
     var $verificationCode = Math.floor(100 + Math.random() * 900);
+    localStorage.code = $verificationCode;
     alert('Tu código de verificación es: LAB - ' + $verificationCode);
     window.location.href = 'verify.html';
+
+    
   });
 });

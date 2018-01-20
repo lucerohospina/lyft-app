@@ -69,8 +69,8 @@ body {
 }
 
 .signup-next-btn {
-  background-color: lightgray;
-  /* color: gray; */
+  background: linear-gradient(to left, rgb(128,0,128) 35%, rgb(238, 24, 156));
+  color: #fff;
   margin-top: 5%;
   padding: 5% 40%;
 }
@@ -92,9 +92,17 @@ body {
   margin-top: 15%;
 }
 
+.resend-btn {
+  background-color: rgb(224, 216, 216);
+  border: none;
+}
+
 /* REGISTER VIEW */
 .register-next-btn {
+  background: linear-gradient(to left, rgb(128,0,128) 35%, rgb(238, 24, 156));
+  color: #fff;
   margin-top: 10%;
+  padding: 5% 40%;
 }
 
 /* LAST VIEW */

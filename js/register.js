@@ -14,14 +14,10 @@ $(document).ready(function() {
   function activeNextBtn() {
     if ($validateName && $validateEmail && $validateChecked) {
       $nextRegisterBtn.removeAttr('disabled');
-      $nextRegisterBtn.css({ 'background': 'linear-gradient(to left, rgb(128,0,128) 35%, rgb(238, 24, 156))',
-        'color': '#fff'});
     }
   }
-
   function inactiveNextBtn() {
     $nextRegisterBtn.attr('disabled', true); 
-    $nextRegisterBtn.css({ 'background': 'lightgray'});
   }
 
   /* Agregando evento para redireccionar al Botn NEXT */
@@ -32,7 +28,7 @@ $(document).ready(function() {
   /* Agregando eventos a los inputs */
   $userName.on('input', function() {
     console.log($(this).val());
-    if ($(this).val() && $(this).val().lenght !== '') {
+    if ($(this).val() && $(this).val().length !== '') {
       $validateName = true;
       activeNextBtn();
     } else {
@@ -44,7 +40,7 @@ $(document).ready(function() {
     console.log($(this).val());
     var $regexEmail = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     console.log($regexEmail.test($(this).val()));
-    if ($regexEmail.test($(this).val()) && $(this).val()) {
+    if ($regexEmail.test($(this).val())) {
       $validateEmail = true;
       activeNextBtn();
     } else {
@@ -61,6 +57,4 @@ $(document).ready(function() {
       inactiveNextBtn();
     }
   });
-
-  
 });

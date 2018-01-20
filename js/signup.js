@@ -3,16 +3,30 @@ $(document).ready(function() {
   $('#demo').intlTelInput();
 
   /* Declarando variables */
+  var $signupInput = $('.signup-input');
   var $nextBtn = $('.signup-next-btn');
   var $validateNumbers = false;
+
+  /* Funciones para el Boton NEXT */
+  function activeNextBtn() {
+    if ($validateNumbers) {
+      $nextBtn.removeAttr('disabled');
+    }
+  }
+
+  function inactiveNextBtn() {
+    $nextBtn.attr('disabled', true);
+  }
   
   /* Función para el input */
-  $('#demo').on('input', function() {
+  $signupInput.on('input', function() {
+    console.log($signupInput.val());
     if ($(this).val().length >= 10) {
       $validateNumbers = true;
       activeNextBtn();
+      $(this).val();
     } else {
-      inactiveNextBtn;
+      inactiveNextBtn();
     }
   });
 
@@ -22,19 +36,5 @@ $(document).ready(function() {
     localStorage.code = $verificationCode;
     alert('Tu código de verificación es: LAB - ' + $verificationCode);
     window.location.href = 'verify.html';
-
-    
   });
-
-  /* Funciones para el Boton NEXT */
-  function activeNextBtn() {
-    if ($validateNumbers) {
-      $nextBtn.removeAttr('disabled');
-      $nextBtn.css({ 'background': 'linear-gradient(to left, rgb(128,0,128) 35%, rgb(238, 24, 156))',
-        'color': '#fff'});
-    }
-  }
-  function inactiveNextBtn() {
-    $nextBtn.attr('disabled'); 
-  }
 });

@@ -3,7 +3,7 @@ $(document).ready(function() {
   $(function() {
     setTimeout(function() {
       $('#intro').fadeOut();
-    }, 2000);
+    }, 10000);
     $(location).attr('href', 'views/home.html');
   });
 });

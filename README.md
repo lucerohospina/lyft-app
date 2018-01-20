@@ -12,6 +12,20 @@ Reparamos los bugs mencionados en la parte original de este _README_:
 
 Este proyecto se encuentra ahora completo en todas sus funcionalidades.
 
+* Vistas del proyecto: 
+
+![Sin titulo](assets/docs/intro-splash.png)
+
+![Sin titulo](assets/docs/home-view.JPG)
+
+![Sin titulo](assets/docs/signup-view.JPG)
+
+![Sin titulo](assets/docs/verify-view.JPG)
+
+![Sin titulo](assets/docs/register-view.JPG)
+
+![Sin titulo](assets/docs/last-view.JPG)
+
 >README original:
 
 * En este repositorio presento el reto de código que consiste en crear una app para el portal de servicios de transporte llamado **Lyft**.
@@ -46,4 +60,4 @@ Este proyecto se encuentra ahora completo en todas sus funcionalidades.
 ![Sin titulo](assets/docs/ingreso-datos.png)
 ![Sin titulo](assets/docs/final.png)
 
-**En desarrollo por _Lucero Hospina_**
+**Desarrollado por _Lucero Hospina_**
